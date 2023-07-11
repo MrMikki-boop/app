@@ -3,17 +3,11 @@ package hexlet.code;
 import java.util.Scanner;
 import java.util.function.Supplier;
 
-import hexlet.code.Cli;
-
 public class Engine {
-    private static final int MAX_ATTEMPTS = 3;
 
     public static void playGame(String question, int maxQuestions, Supplier<String> questionAndAnswerSupplier) {
+        String name = Cli.greetUser();
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Welcome to the Brain Games!");
-        System.out.print("May I have your name? ");
-        String name = scanner.next();
-        System.out.println("Hello, " + name + "!");
 
 
         System.out.println(question);

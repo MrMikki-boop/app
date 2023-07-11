@@ -1,5 +1,7 @@
 package hexlet.code.games;
 
+import hexlet.code.Cli;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -7,6 +9,7 @@ public class EvenGame {
     private static final int MAX_QUESTIONS = 3;
 
     public static void startGame() {
+        String name = Cli.greetUser();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Answer 'yes' if the number is even, otherwise answer 'no'.");
 
@@ -30,7 +33,7 @@ public class EvenGame {
             }
         }
 
-        System.out.println("Congratulations, you won!");
+        System.out.println("Congratulations, " + name + "!");
     }
 
     private static int generateRandomNumber() {
