@@ -1,12 +1,13 @@
 package hexlet.code.games;
 
+import hexlet.code.Cli;
 import hexlet.code.Engine;
 
 import java.util.Random;
 
 public class CalcGame {
     private static final int MAX_QUESTIONS = 3;
-    private static final int MAX_NUMBER = 100;
+    private static final int MAX_NUMBER = 20;
     private static final char[] OPERATIONS = {'+', '-', '*'};
 
     public static void startGame() {
