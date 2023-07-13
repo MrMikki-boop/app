@@ -10,3 +10,6 @@
 [Ссылка на запись игры Calc](https://asciinema.org/a/596201)
 
 [Ссылка на запись игры "НОД"](https://asciinema.org/a/596630)
+
+
+[Ссылка на запись игры "НОД"](https://asciinema.org/a/596632)
